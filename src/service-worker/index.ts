@@ -7,11 +7,8 @@
 declare let self: ServiceWorkerGlobalScope;
 
 import { activateEvent } from './activateEvent';
-import { fetchEvent } from './fetchEvent';
 import { installEvent } from './installEvent';
 
 self.addEventListener('install', installEvent);
 
 self.addEventListener('activate', activateEvent);
-
-self.addEventListener('fetch', fetchEvent);

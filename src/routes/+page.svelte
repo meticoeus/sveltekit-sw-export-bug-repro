@@ -1,8 +1,6 @@
 <script>
-	import Counter from '$lib/counter/Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import ApiTest from './ApiTest.svelte';
 	import WorkerInfo from './WorkerInfo.svelte';
 </script>
 
@@ -22,10 +20,6 @@
 
 		to your new<br />SvelteKit app
 	</h1>
-
-	<Counter />
-
-	<ApiTest />
 
 	<WorkerInfo />
 </section>
